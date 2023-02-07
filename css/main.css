@@ -1,0 +1,238 @@
+/*@import "./reset.css";*/
+html {
+    background-image: url(../image/krasivie-foto-15.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+body{
+    margin: 0;
+    font-size: 14px;
+    line-height: 2.6;
+    
+  
+   
+   
+}
+
+.center-img{
+
+		display: block;
+		margin: 0 auto;
+}
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+
+  h1, h2, h3 {
+    
+     margin: 0; }
+
+
+
+ /*bloc 1*/
+.container__1{
+    width: 100%;
+    display: block;
+    max-width: 980px;
+    margin: 1px auto;
+    padding: 4px;
+    
+}
+/**
+@media (max-width: 1200px) { 
+    .container__1 {
+        max-width: 980px;
+    }
+    
+}
+@media ( max-width:970px) {
+    .container__1 {
+        max-width: 750px;
+    } 
+}
+
+@media ( max-width:767px) {
+    .container__1 {
+        max-width: none;
+    } 
+}
+**/
+.container__2{
+    width: 100%;
+    
+    background-color: rgb(26, 109, 187);
+    margin: 0 auto;
+    padding: 3px 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(7, 34, 155);
+   
+}
+
+.nav-sozial{
+    margin: 5px 20p 5px 50px;
+   padding: 5px 20p 5px 50px; 
+    
+}
+
+.nav-link__1 {
+    
+    width: 60px;
+   height: 100px;
+     padding: 20px 2px;
+}
+
+
+
+.nav-link {
+    font-size: 15px;
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+   
+
+    color: #e7f0ea;
+    text-decoration: none;
+    transition:color .2s linear ;
+    
+}
+
+.nav-link:hover {
+    color: rgb(228, 196, 15);
+    
+}
+
+
+/*BLOC2*/ 
+.container__3{
+    height: 100px;
+    
+    margin: 0 auto;
+    display: flex;
+   justify-self: center;
+   background-color: #fff;
+}
+
+
+
+p{
+    margin: 15px 10px;
+    
+}
+.container__4{
+    display: flex;
+    line-height: 1px;
+    width: 160px;
+    height: 100px;
+    
+    margin: 14px 5px  15px;
+    
+}
+
+
+
+h1{
+    width: 270px;
+    font-size: 20px;
+    padding: 25px 68px;
+     
+}
+.container {
+    width: 100%;
+   
+}
+   
+
+.color{
+    
+    color: rgb(221, 20, 20);
+}
+.color_1{
+   
+     color: rgb(214, 136, 19);
+     
+    }   
+
+.tel{
+    
+    width: 15px; 
+    height: 15px
+ }
+
+
+/*BOTON*/
+.container__11{
+    
+    background-color: rgb(236, 216, 29)  
+}
+.bloc{
+    width: 100%;
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.boton{
+    display: flex;
+    margin: 0 -5px;
+    margin-bottom: 10px;
+}
+.rew{
+    font-size: 20px;
+    flex: 1  auto;
+    margin: 0px 15px;
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+    transition:color .2s linear ;
+    
+    
+}
+
+
+
+
+.rew:hover{
+    color: rgb(230, 77, 17);
+}
+
+.pochuk{
+    
+   margin: 10px 180px 10px 0px;
+   
+}
+.placeholder{
+    width: 310px;
+    height: 28px;
+    padding: 10px;
+    font-size: 16px;
+
+}
+/* nav nav-bar ..*/
+.asd{
+   display: flex;
+    
+    
+   
+}
+.tre{
+    width: 33.3%;
+    margin: 2px auto;
+    border: solid rgb(28, 25, 196);
+   
+    
+
+}
